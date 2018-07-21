@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+
+spring:
+  datasource:
+    i61-auth:
+      driverClassName: com.mysql.jdbc.Driver
+      jdbcUrl: jdbc:mysql://127.0.0.1:3306/i61-auth?useUnicode=true&characterEncoding=utf-8
+      username: root
+      password: root
+
+    i61:
+      driverClassName: com.mysql.jdbc.Driver
+      jdbcUrl: jdbc:mysql://127.0.0.1:3306/i61?useUnicode=true&characterEncoding=utf-8
+      username: root
+      password: root
